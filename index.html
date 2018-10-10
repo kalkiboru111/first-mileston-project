@@ -10,7 +10,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" type="text/css" />
-    
     <title>Colette O'Beirne Studio</title>
 </head>
 <heading>
@@ -18,7 +17,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xs-12">
-                    <h3>Colette </br>O'Beirne </br> Studio</h3>
+                    <h3 id="title-heading">Colette </br>O'Beirne </br> Studio</h3>
                 </div>
             </div>
         </div>
@@ -26,10 +25,22 @@
     <section>
         <nav class="navbar navbar-default">
             <div class="container-fluid">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Information</a></li>
-                    <li><a href="sculptures.html">Sculptures</a></li>
-                    <li><a href="music.html">Music</a></li>
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">Colette O'Beirne Studio</a>
+                </div>
+                <ul class="nav navbar-nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Information</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sculptures.html">Sculptures</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Music.html">Music</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Contact</a>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -46,7 +57,7 @@
                     </section>
                 </article>
             </div>
-            <div id="upper-main" class="col-xs-8">
+            <div id="upper-main-section" class="col-xs-8">
                 <article>
                     <section>
                         Lorem ipsum dolor sit amet.
@@ -55,25 +66,6 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-xs-4">
-                <article>
-                    <section>
-                        Lorem ipsum dolor sit amet.
-                    </section>
-                </article>
-            </div>
-            <div class="col-xs-8">
-                <article>
-                    <section>
-                        Lorem ipsum dolor sit amet.
-                    </section>
-                </article>
-            </div>
-        </div>
-    </div>
-
 </body>
 
 <footer>
@@ -92,7 +84,6 @@
                 </div>
             </div>
         </div>
-        <link rel="stylesheet" href="#" type="text/css" />
 
     </div>
 </footer>

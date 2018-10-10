@@ -1,3 +1,22 @@
+
+#title-heading{
+    text-align: center;
+    font-family: 'Brilon';
+    color: #b5b8bb;
+    text-transform: uppercase;
+    margin: 25px;
+}
+
 #upper-sidebar{
     background-color: blue;
+    display: inline-block;
+    height: 500px;
 }
+
+#upper-main-section{
+    background-color: blue;
+    display: inline-block;
+    width: 500px;
+    float: none;
+}
+
