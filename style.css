@@ -1,3 +1,19 @@
+/*------------------------Colors*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------Others*/
+
+[Add scrollbar via CSS overflow property]
 
 #title-heading{
     text-align: center;
@@ -20,3 +36,29 @@
     float: none;
 }
 
+/*------------------------Media Queries*/
+@media only screen and (min-width: 320px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    body {
+        background-color: pink;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    body {
+        background-color: purple;
+    }
+}
+
+/*------------------------Images*/
