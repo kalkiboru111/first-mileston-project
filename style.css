@@ -12,22 +12,23 @@
     height: 100%;
     padding-top: 5px;
 }
+
+/*------------------------Videos*/
+
+.iframe {
+    margin: auto;
+    
+}
+
 /*------------------------GalleryGrid*/
-.row{
-    overflow: hidden; 
+
+#gallery-grid{
+    margin: 25px;
 }
 
-[class*="col-"]{
-    margin-bottom: -99999px;
-    padding-bottom: 99999px;
+#gallery-grid .img{
+    padding: 20px;
 }
-
-#GalleryGrid{
-    margin-left: 25px;
-    margin-right: 25px;
-}
-
-
 /*------------------------NavBar*/
 
 #primary-nav-bar{
@@ -93,8 +94,6 @@ margin: auto;
     }
 }
 
-/*------------------------Images*/
-
 
 /*------------------------Logos*/
 
@@ -102,4 +101,10 @@ margin: auto;
    margin-top: 25px;
    text-align: center;
    font-size: 25px;
+}
+
+/*------------------------Contact Form*/
+.center-div{
+    margin: auto;
+    width: 80%;
 }
